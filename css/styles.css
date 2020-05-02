@@ -1,0 +1,87 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  /* background-image: url("../images/cards.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; */
+font-family: 'Inconsolata', monospace;
+color:grey;
+ background-image: linear-gradient(to right, #204051, #3b6978 , #84a9ac, #dee3e2);
+}
+
+.main-div{
+  width:900px;
+  background-color: #fff;
+  position:relative;
+  top:80px;
+  border-radius: 30px;
+
+  box-shadow:15px 0 16px #888888;
+
+}
+h6{
+  background-color:#ecfbfc;
+  color:black;
+  font-weight: 600;
+  display:inline-block;
+}
+
+
+.form-div{
+  margin-top: 30px;
+}
+
+.form-col{
+  padding:30px;
+}
+
+.input-box{
+  border-left:0;
+  border-top: 0;
+  border-bottom: 2px solid #888888;
+  border-right: 0;
+  border-radius:5px;
+}
+
+.bag-img{
+  width:90%;
+  position: absolute;
+  top:-60px;
+  bottom:-5px;
+  z-index:100;
+  border-radius: 30px;
+
+  box-shadow: 0 8px 2px -2px grey;
+}
+.checkout-button{
+  background-color: #cbe2b0;
+}
+.cancel-button{
+  position:absolute;
+  right:30px;
+}
+.cancel-button:hover{
+  background-color: #dee3e2;
+}
+
+.checkout-button:hover{
+  border-color:green;
+}
+
+@media (max-width: 576px) {
+  .bag-img{
+    width:100vw;
+    border-radius: 0;
+    top:0;
+    left:0;
+    right:0;
+  }
+  .main-div{
+    width:100%;
+    border-radius: 0;
+    top:0;
+    padding:0;
+  }
+
+ }
